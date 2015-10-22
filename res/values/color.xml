@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="background">#CCEED0</color>
+	<color name="button">#44BBEE</color>
+	<color name="target_list">#AADDFF</color>
+	<color name="target_list_selected">#AADDFF</color>
+    
+</resources>

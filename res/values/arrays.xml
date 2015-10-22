@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string-array name="targets">
+		<item>JAVA</item>
+		<item>Linux</item>
+		<item>Storage</item>
+		<item>DB</item>
+	</string-array>
+</resources>

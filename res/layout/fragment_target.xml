@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <TextView 
+        android:id="@+id/tvTargetTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Target Setting"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:textStyle="italic"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+    
+    <View
+        android:id="@+id/vTargetAboveList1"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/tvTargetTitle"
+	    android:background="#BBEEFF" />
+    
+    <View
+        android:id="@+id/vTargetAboveList2"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/vTargetAboveList1"
+	    android:background="#BBEEFF" />
+    
+    <ListView 
+	    android:id="@+id/lvTargetContent"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/vTargetAboveList2"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:divider="#BBEEFF"
+	    android:dividerHeight="5dp"
+	    android:listSelector="@color/target_list_selected" >
+ 	</ListView>
+ 	
+    <View
+        android:id="@+id/vTargetBellowList1"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/lvTargetContent"
+	    android:background="#BBEEFF" />
+    
+    <View
+        android:id="@+id/vTargetBellowList2"
+        android:layout_width="300dp"
+        android:layout_height="5dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_below="@id/vTargetBellowList1"
+	    android:background="#BBEEFF" />
+ 	
+	<Button 
+	    android:id="@+id/btTargetAdd"
+	    style="@style/target_button"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="30dp"
+	    android:layout_below="@id/vTargetBellowList2"
+	    android:text="Add" />
+	
+	<Button 
+	    android:id="@+id/btTargetUpdate"
+	    style="@style/target_button"
+	    android:layout_below="@id/vTargetBellowList2"
+	    android:layout_toRightOf="@id/btTargetAdd"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="30dp"
+	    android:text="Update" />
+	
+	<Button 
+	    android:id="@+id/btTargetDelete"
+	    style="@style/target_button"
+	    android:layout_below="@id/vTargetBellowList2"
+	    android:layout_toRightOf="@id/btTargetUpdate"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginTop="30dp"
+	    android:text="Delete" />
+	
+</RelativeLayout>

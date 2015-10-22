@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ListView 
+        android:id="@+id/lvResultDetail"
+        android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/btResultDetail"
+	    android:layout_margin="10dp"
+	    android:divider="#DDEEFF"
+	    android:dividerHeight="2dp"
+	    android:listSelector="#555555" >
+    </ListView>
+    
+</RelativeLayout>

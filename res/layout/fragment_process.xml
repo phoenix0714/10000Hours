@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >  
+
+    <TextView
+        android:id="@+id/tvProcessTarget"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:text="Target:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spProcessTarget"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="60dp"        
+        android:layout_below="@+id/tvProcessTarget" />
+    
+    <TextView 
+        android:id="@+id/tvProcessDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/spProcessTarget"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Date:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <DatePicker
+        android:id="@+id/dpProcessDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/tvProcessDate"
+        android:layout_marginTop="-30dp"
+        android:layout_marginLeft="60dp"
+        android:calendarViewShown="false" />
+    
+    <TextView 
+        android:id="@+id/tvProcessHour"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dpProcessDate"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="-35dp"
+        android:textStyle="bold"
+        android:text="Hours:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Spinner
+        android:id="@+id/spProcessHour"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="60dp"
+        android:layout_below="@+id/tvProcessHour" />
+
+    <TextView
+        android:id="@+id/tvProcessRemark"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spProcessHour"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"
+        android:text="Remark:"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <EditText
+        android:id="@+id/etProcessRemark"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tvProcessRemark"
+        android:layout_marginLeft="60dp"
+	    android:minLines="2" />
+    
+    <Button 
+	    android:id="@+id/btProcessAdd"
+	    style="@style/process_button"
+	    android:layout_marginLeft="12dp"
+	    android:layout_below="@id/etProcessRemark"
+	    android:text="Add" />
+	
+	<Button 
+	    android:id="@+id/btProcessUpdate"
+	    style="@style/process_button"
+		android:layout_marginLeft="16dp"
+	    android:layout_below="@id/etProcessRemark"
+	    android:layout_toRightOf="@id/btProcessAdd"
+	    android:text="Update" />
+	
+	<Button 
+	    android:id="@+id/btProcessDelete"
+	    style="@style/process_button"
+	    android:layout_marginLeft="16dp"
+	    android:layout_below="@id/etProcessRemark"
+	    android:layout_toRightOf="@id/btProcessUpdate"
+	    android:text="Delete" />
+	
+	<Button 
+	    android:id="@+id/btProcessSelect"
+	    style="@style/process_button"
+	    android:layout_marginLeft="16dp"
+	    android:layout_marginRight="12dp"
+	    android:layout_below="@id/etProcessRemark"
+	    android:layout_toRightOf="@id/btProcessDelete"
+	    android:text="Select" />    
+</RelativeLayout>
