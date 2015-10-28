@@ -1,13 +1,11 @@
 package com.liu.hours;
 
 
-import database.DatabaseHelper;
 import fragment.FragmentProcess;
 import fragment.FragmentResult;
 import fragment.FragmentTarget;
 import android.app.Activity;
 import android.app.FragmentTransaction;
-import android.database.sqlite.SQLiteDatabase;
 import android.support.v7.app.ActionBarActivity;
 import android.support.v7.app.ActionBar;
 import android.support.v4.app.Fragment;

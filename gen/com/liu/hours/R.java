@@ -1105,11 +1105,11 @@ containing a value of this type.
         public static final int action_bar_subtitle=0x7f050023;
         public static final int action_bar_title=0x7f050022;
         public static final int action_context_bar=0x7f05001d;
-        public static final int action_example=0x7f05005e;
         public static final int action_menu_divider=0x7f050016;
         public static final int action_menu_presenter=0x7f050017;
         public static final int action_mode_close_button=0x7f050024;
         public static final int action_settings=0x7f05005d;
+        public static final int action_update=0x7f05005e;
         public static final int activity_chooser_view_content=0x7f050025;
         public static final int always=0x7f05000b;
         public static final int beginning=0x7f050011;
@@ -1303,13 +1303,26 @@ containing a value of this type.
         public static final int abc_shareactionprovider_share_with_application=0x7f0a000b;
         public static final int action_example=0x7f0a0014;
         public static final int action_settings=0x7f0a0015;
+        public static final int action_update=0x7f0a0016;
+        public static final int add=0x7f0a001c;
         public static final int app_name=0x7f0a000d;
+        public static final int delete=0x7f0a001e;
         public static final int navigation_drawer_close=0x7f0a0013;
         public static final int navigation_drawer_open=0x7f0a0012;
+        public static final int process_date=0x7f0a0018;
+        public static final int process_hint=0x7f0a001b;
+        public static final int process_hours=0x7f0a0019;
+        public static final int process_remark=0x7f0a001a;
+        public static final int process_target=0x7f0a0017;
+        public static final int result_detail=0x7f0a0022;
+        public static final int result_title=0x7f0a0021;
+        public static final int select=0x7f0a001f;
+        public static final int target_title=0x7f0a0020;
         public static final int title_section1=0x7f0a000e;
         public static final int title_section2=0x7f0a000f;
         public static final int title_section3=0x7f0a0010;
         public static final int title_section4=0x7f0a0011;
+        public static final int update=0x7f0a001d;
     }
     public static final class style {
         /** 

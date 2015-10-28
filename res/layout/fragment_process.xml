@@ -12,7 +12,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="10dp"
         android:textStyle="bold"
-        android:text="Target:"
+        android:text="@string/process_target"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Spinner
@@ -30,7 +30,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:text="Date:"
+        android:text="@string/process_date"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <DatePicker
@@ -51,7 +51,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="-35dp"
         android:textStyle="bold"
-        android:text="Hours:"
+        android:text="@string/process_hours"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <Spinner
@@ -71,7 +71,7 @@
         android:layout_marginLeft="20dp"
         android:layout_marginTop="5dp"
         android:textStyle="bold"
-        android:text="Remark:"
+        android:text="@string/process_remark"
         android:textAppearance="?android:attr/textAppearanceLarge" />
 
     <EditText
@@ -80,6 +80,7 @@
         android:layout_height="wrap_content"
         android:layout_below="@id/tvProcessRemark"
         android:layout_marginLeft="60dp"
+        android:hint="@string/process_hint"
 	    android:minLines="2" />
     
     <Button 
@@ -87,7 +88,7 @@
 	    style="@style/process_button"
 	    android:layout_marginLeft="12dp"
 	    android:layout_below="@id/etProcessRemark"
-	    android:text="Add" />
+	    android:text="@string/add" />
 	
 	<Button 
 	    android:id="@+id/btProcessUpdate"
@@ -95,7 +96,7 @@
 		android:layout_marginLeft="16dp"
 	    android:layout_below="@id/etProcessRemark"
 	    android:layout_toRightOf="@id/btProcessAdd"
-	    android:text="Update" />
+	    android:text="@string/update" />
 	
 	<Button 
 	    android:id="@+id/btProcessDelete"
@@ -103,7 +104,7 @@
 	    android:layout_marginLeft="16dp"
 	    android:layout_below="@id/etProcessRemark"
 	    android:layout_toRightOf="@id/btProcessUpdate"
-	    android:text="Delete" />
+	    android:text="@string/delete" />
 	
 	<Button 
 	    android:id="@+id/btProcessSelect"
@@ -112,5 +113,5 @@
 	    android:layout_marginRight="12dp"
 	    android:layout_below="@id/etProcessRemark"
 	    android:layout_toRightOf="@id/btProcessDelete"
-	    android:text="Select" />    
+	    android:text="@string/select" />
 </RelativeLayout>

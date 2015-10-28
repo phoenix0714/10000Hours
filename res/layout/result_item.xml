@@ -9,8 +9,7 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="40dp"
         android:layout_marginTop="5dp"
-        android:textSize="15sp"
-        android:text="left" />
+        android:textSize="15sp" />
 	
 	<TextView
 	    android:id="@+id/tvResultTargetFinished"
@@ -18,8 +17,7 @@
 	    android:layout_height="wrap_content"
 	    android:layout_alignParentRight="true"
         android:layout_marginTop="5dp"
-	    android:textSize="15sp"
-	    android:text="right" />
+	    android:textSize="15sp" />
 
     <ProgressBar
         android:id="@+id/pbResultFinished"
@@ -37,6 +35,6 @@
 		android:layout_marginTop="5dp"
 		android:layout_marginBottom="5dp"
         android:layout_below="@id/pbResultFinished"
-        android:text="--Detail--" />
+        android:text="@string/result_detail" />
 
 </RelativeLayout>
